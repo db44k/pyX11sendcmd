@@ -73,6 +73,10 @@ Send a remote command to the specified window:
 python3 pyX11sendcmd.py -t <TARGET_IP> -d <DISPLAY_NO> -w <WINDOW_ID> -c 'sleep 10'
 ```
 
+## Requirements
+
+Just Python3 and `python-xlib`. (`pip3 install Xlib`)
+
 ## References
 - Metasploit x11_keyboard_exec module - <https://github.com/rapid7/metasploit-framework/blob/master/documentation/modules/exploit/unix/x11/x11_keyboard_exec.md>
 - Scorpion Labs Blog - <https://www.klogixsecurity.com/scorpion-labs-blog/>
